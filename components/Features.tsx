@@ -5,9 +5,9 @@ const manrope = Manrope({ subsets: ["latin"] });
 
 export default function Features() {
   return (
-    <div className="flex gap-4 flex-col w-full px-10">
-      <div className="flex gap-4">
-        <div className="bg-dark-gray p-6 rounded-2xl w-2/3">
+    <div className="flex gap-4 flex-col w-screen lg:w-full sm:px-10 px-4">
+      <div className="flex md:flex-row flex-col gap-4">
+        <div className="bg-dark-gray p-6 rounded-2xl lg:w-2/3 w-full flex flex-col items-center justify-center lg:block">
           <Image
             src="Secure_Safebox_Digital.svg"
             width={219}
@@ -23,7 +23,7 @@ export default function Features() {
             Stake your AVAIL with us to earn rewards and points
           </p>
         </div>
-        <div className="bg-dark-gray p-6 rounded-2xl w-1/3">
+        <div className="bg-dark-gray p-6 rounded-2xl lg:w-1/3 w-full flex flex-col items-center justify-center lg:block">
           <Image src="Sound_SFX.svg" width={201} height={169} alt="" />
           <p className="text-2xl font-bold mt-10">
             Stake with any <span className="text-light-blue">token</span>
@@ -35,8 +35,8 @@ export default function Features() {
           </p>
         </div>
       </div>
-      <div className="flex gap-4">
-        <div className="bg-dark-gray p-6 rounded-2xl w-1/3">
+      <div className="flex gap-4 md:flex-row flex-col ">
+        <div className="bg-dark-gray p-6 rounded-2xl lg:w-1/3 w-full flex flex-col items-center justify-center lg:block">
           <Image src="Image_Uploading.svg" width={223} height={173} alt="" />
           <p className="text-2xl font-bold mt-10">
             Track <span className="text-light-blue">Portfolio</span>
@@ -47,9 +47,16 @@ export default function Features() {
             Stake your AVAIL with us to earn rewards and points
           </p>
         </div>
-        <div className="bg-dark-gray p-6 rounded-2xl w-2/3 flex justify-between">
-          <div className="self-end">
-            <p className="text-2xl font-bold mt-10">
+        <div className="bg-dark-gray p-6 rounded-2xl lg:w-2/3 w-full flex lg:flex-row flex-col md:justify-between items-center justify-center">
+          <Image
+            src="Alerts_Circle.svg"
+            width={180}
+            height={160}
+            alt=""
+            className="lg:hidden"
+          />
+          <div className="lg:self-end mt-10">
+            <p className="text-2xl font-bold text-center lg:text-left">
               Earn DEQ <span className="text-light-blue">points</span>
             </p>
             <p
@@ -63,7 +70,7 @@ export default function Features() {
             width={250}
             height={239}
             alt=""
-            className="self-start"
+            className="self-start hidden lg:block"
           />
         </div>
       </div>

@@ -1,10 +1,9 @@
-import { Inter, Quicksand, Syne } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
 const quicksand = Quicksand({ subsets: ["latin"] });
 
 export default function Home() {
@@ -15,7 +14,7 @@ export default function Home() {
       <div className="min-h-screen w-screen">
         <Hero />
       </div>
-      <div className="max-w-7xl">
+      <div className="lg:max-w-7xl w-screen">
         <Features />
         <FAQ />
         <Footer />

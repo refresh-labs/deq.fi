@@ -46,12 +46,12 @@ export default function FAQ() {
     setOpenStates(newOpenStates);
   };
   return (
-    <div className="flex w-full mt-44">
-      <p className="w-1/2 font-bold text-[42px] leading-normal">
-        Frequently <br />
+    <div className="flex lg:flex-row flex-col w-full mt-44 sm:px-10 px-4 gap-4">
+      <p className="lg:w-1/2 w-full font-bold sm:text-[42px] text-2xl leading-normal">
+        Frequently <br className="hidden lg:block" />
         asked questions
       </p>
-      <div className="flex flex-col gap-4 w-1/2">
+      <div className="flex flex-col gap-4 lg:w-1/2 w-full">
         {faqs.map((faq, index) => (
           <div
             key={index}

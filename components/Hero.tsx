@@ -6,7 +6,7 @@ const manrope = Manrope({ subsets: ["latin"] });
 
 export default function Hero() {
   return (
-    <div className="h-fit bg-center flex flex-col items-center pt-12 w-full bg-[url('/background.svg')] mb-44">
+    <div className="h-fit bg-center flex flex-col items-center pt-12 w-full bg-[url('/background.svg')] mb-44 px-4">
       <Image src="logo.svg" height={33} width={105} alt="logo" />
       <Image
         src="transaction.svg"
@@ -15,17 +15,17 @@ export default function Hero() {
         alt="preview"
         className="mt-20"
       />
-      <p className="text-5xl font-bold">
+      <p className="md:text-5xl font-bold text-center sm:text-3xl text-2xl">
         Native liquid staking for <span className="text-light-blue">Avail</span>
       </p>
       <p
-        className={`opacity-45 text-base font-medium mt-2 ${manrope.className}`}
+        className={`opacity-45 md:text-base text-sm font-medium mt-2 text-center ${manrope.className}`}
       >
         Stake your AVAIL with us to earn rewards and points
       </p>
       <Link
         href="#"
-        className={`py-3 px-10 mt-4 bg-light-blue rounded-xl ${manrope.className} font-extrabold text-base hover:bg-dark-blue`}
+        className={`sm:py-3 py-2 sm:px-10 px-6 text-sm font-bold mt-4 bg-dark-blue rounded-xl ${manrope.className} sm:font-extrabold sm:text-base hover:bg-light-blue`}
       >
         Stake AVAIL
       </Link>
