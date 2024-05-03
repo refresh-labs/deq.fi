@@ -17,24 +17,31 @@ export default function Features() {
 			<div className='flex md:flex-row flex-col gap-4'>
 				<div
 					data-aos='fade-up'
-					className='bg-dark-gray p-6 rounded-2xl lg:w-2/3 w-full flex flex-col items-center justify-center lg:block'>
+					className='relative bg-dark-gray p-6 rounded-2xl lg:w-2/3 w-full flex lg:flex-row flex-col md:justify-between items-center justify-center'>
 					<Image
 						src='Secure_Safebox_Digital.svg'
 						width={219}
 						height={166}
 						alt=''
+						className='block lg:hidden'
 					/>
-					<p className='text-2xl font-bold mt-10'>
-						<span className='text-light-blue'>
-							Stake Avail
-						</span>{" "}
-						on Ethereum
-					</p>
-					<p
-						className={`${manrope.className} text-sm font-medium text-white/50 mt-1`}>
-						Stake your AVAIL with us to earn rewards and
-						points
-					</p>
+					<div className='lg:self-end mt-10'>
+            <p className='text-2xl font-bold text-center lg:text-left'>
+              <span className='text-light-blue'>Stake Avail</span> on Ethereum
+            </p>
+            <p
+              className={`${manrope.className} text-sm font-medium text-white/50 mt-1 text-center lg:text-left`}
+            >
+              Stake your AVAIL with us to earn rewards and points
+            </p>
+          </div>
+          <Image
+            src='Secure_Safebox_Digital.svg'
+            width={327}
+            height={245}
+            alt=''
+            className='self-start hidden lg:block absolute right-8 -top-10'
+          />
 				</div>
 				<div
 					data-aos='fade-up'
@@ -45,12 +52,12 @@ export default function Features() {
 						height={169}
 						alt=''
 					/>
-					<p className='text-2xl font-bold mt-10'>
+					<p className='text-2xl font-bold mt-10 text-center lg:text-left'>
 						Stake with any{" "}
 						<span className='text-light-blue'>token</span>
 					</p>
 					<p
-						className={`${manrope.className} text-sm font-medium text-white/50 mt-1`}>
+						className={`${manrope.className} text-sm font-medium text-white/50 mt-1 text-center lg:text-left`}>
 						Stake your AVAIL with us to earn rewards and
 						points
 					</p>
@@ -66,14 +73,14 @@ export default function Features() {
 						height={173}
 						alt=''
 					/>
-					<p className='text-2xl font-bold mt-10'>
+					<p className='text-2xl font-bold mt-10 text-center lg:text-left'>
 						Track{" "}
 						<span className='text-light-blue'>
 							Portfolio
 						</span>
 					</p>
 					<p
-						className={`${manrope.className} text-sm font-medium text-white/50 mt-1`}>
+						className={`${manrope.className} text-sm font-medium text-white/50 mt-1 text-center lg:text-left`}>
 						Stake your AVAIL with us to earn rewards and
 						points
 					</p>
@@ -96,7 +103,7 @@ export default function Features() {
 							</span>
 						</p>
 						<p
-							className={`${manrope.className} text-sm font-medium text-white/50 mt-1`}>
+							className={`${manrope.className} text-sm font-medium text-white/50 mt-1 text-center lg:text-left`}>
 							Stake your AVAIL with us to earn rewards and
 							points
 						</p>
