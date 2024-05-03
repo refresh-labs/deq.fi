@@ -46,7 +46,8 @@ export default function Footer() {
             </Link>
             <Link
               className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center flex-grow hover:bg-gray"
-              href="/"
+              target="blank"
+              href="https://twitter.com/deq_fi"
             >
               <Image height={32} src="x-icon.svg" width={33} alt="X logo" />
             </Link>
