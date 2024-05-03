@@ -77,8 +77,8 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="h-fit flex items-center justify-center select-none">
-        <Image src="footer.svg" alt="footer" width="1170" height="286" />
+      <div className="h-fit flex items-center justify-center select-none mt-20">
+        <Image src="footer.svg" alt="footer" width={833} height={226} />
       </div>
     </footer>
   );

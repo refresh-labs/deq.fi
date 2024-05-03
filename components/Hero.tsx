@@ -15,7 +15,7 @@ export default function Hero() {
         alt="preview"
         className="mt-20"
       />
-      <p className="md:text-5xl font-bold text-center sm:text-3xl text-2xl">
+      <p className="md:text-5xl font-bold text-center sm:text-3xl text-2xl sm:mt-0 mt-12">
         Native liquid staking for <span className="text-light-blue">Avail</span>
       </p>
       <p
