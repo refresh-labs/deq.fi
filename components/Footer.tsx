@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="flex gap-4 h-full flex-grow">
             <Link
               className="bg-dark-gray rounded-2xl p-8 flex items-center justify-center flex-grow hover:bg-gray"
-              href="/"
+              href="https://t.me/deqfi "
             >
               <Image
                 height={32}
@@ -55,7 +55,8 @@ export default function Footer() {
           <div className="flex gap-4 h-full flex-grow">
             <Link
               className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center flex-grow hover:bg-gray"
-              href="/"
+              href="https://discord.gg/Qsn7NQmdFB"
+              target="blank"
             >
               <Image
                 height={32}
@@ -66,7 +67,7 @@ export default function Footer() {
             </Link>
             <Link
               className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center flex-grow hover:bg-gray"
-              href="/"
+              href="https://warpcast.com/deq"
             >
               <Image
                 height={32}
@@ -79,7 +80,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="h-fit flex items-center justify-center select-none mt-20">
-        <Image src="footer.svg" alt="footer" width={833} height={226} />
+        <Image src="footer.svg" alt="footer" width={833} height={226}  />
       </div>
     </footer>
   );
