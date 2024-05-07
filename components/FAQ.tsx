@@ -9,34 +9,34 @@ const manrope = Manrope({ subsets: ["latin"] });
 
 const faqs = [
 	{
-		question: "What Is Deq.fi?",
+		question: "What Is Deq?",
 		answer:
-			"Lorem ipsum dolor sit amet consectetur. In feugiat purus venenatis odio ac. Eget integer tincidunt hendrerit vel a viverra neque facilisi. Luctus ac.",
+			"Deq is a native liquid staking platform for Avail tokens on Ethereum.",
 	},
 	{
-		question: "What Is Deq.fi?",
+		question: "What is stAVAIL?",
 		answer:
-			"Lorem ipsum dolor sit amet consectetur. In feugiat purus venenatis odio ac. Eget integer tincidunt hendrerit vel a viverra neque facilisi. Luctus ac.",
+			"stAVAIL is an ERC20 token on Ethereum that represents your staked Avail tokens. It accrues value over time based on staking rewards distributed on the Avail network. Since it is not a rebasing token (i.e. your balance does not change over time), it can easily be integrated in most of DeFi protocols.",
 	},
 	{
-		question: "What Is Deq.fi?",
+		question: "How do I withdraw stAVAIL?",
 		answer:
-			"Lorem ipsum dolor sit amet consectetur. In feugiat purus venenatis odio ac. Eget integer tincidunt hendrerit vel a viverra neque facilisi. Luctus ac.",
+			"Currently it takes 28 days to redeem stAVAIL. Rewards are automatically redeemed when stAVAIL is withdrawn (in AVAIL). This is based on the unbonding period of the Avail blockchain. If you want a faster withdrawal period, you can always exit via liquidity pools on DEXes. Keep in mind that based on slippage and liquidity pool fees, you might not receive the exact amount that you would get when exiting via the protocol directly, keep in mind that we do not charge any withdrawal fees but the minimum amount to be eligible for protocol withdrawal is 1 stAVAIL.",
 	},
 	{
-		question: "What Is Deq.fi?",
+		question: "How does Deq guarantee the best rates for swaps?",
 		answer:
-			"Lorem ipsum dolor sit amet consectetur. In feugiat purus venenatis odio ac. Eget integer tincidunt hendrerit vel a viverra neque facilisi. Luctus ac.",
+			"Our swap feature is powered by the 0x API, which acts as a liquidity aggregator and routes your swap to the liquidity provider (such as Uniswap or Sushiswap) with the best rates. We do not charge any additional fees and the service is provided as-is, keep in mind that network fees still apply.",
 	},
 	{
-		question: "What Is Deq.fi?",
+		question: "How do I earn Deq points?",
 		answer:
-			"Lorem ipsum dolor sit amet consectetur. In feugiat purus venenatis odio ac. Eget integer tincidunt hendrerit vel a viverra neque facilisi. Luctus ac.",
+			"Deq points are earned based on the time you have held stAVAIL in your wallet as well the amount held. There will also be more pathways to earn Deq points in the future.",
 	},
 	{
-		question: "What Is Deq.fi?",
+		question: "What is the reward fee?",
 		answer:
-			"Lorem ipsum dolor sit amet consectetur. In feugiat purus venenatis odio ac. Eget integer tincidunt hendrerit vel a viverra neque facilisi. Luctus ac.",
+			"Currently the Deq protocol charges a flat 10% fee on rewards earned (in AVAIL). This value has been chosen carefully based on a long-term intention of running a sustainable protocol that rewards all validators and users effectively. This value can also be updated once the protocol fully decentralizes and a full governance mechanism is established.",
 	},
 ];
 
