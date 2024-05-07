@@ -14,7 +14,7 @@ export default function Home() {
       <div className="min-h-screen w-screen">
         <Hero />
       </div>
-      <div className="lg:max-w-7xl w-screen">
+      <div className="w-screen max-w-[1120px]">
         <Features />
         <FAQ />
         <Footer />

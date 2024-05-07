@@ -26,22 +26,22 @@ export default function Features() {
 						className='block lg:hidden'
 					/>
 					<div className='lg:self-end mt-10'>
-            <p className='text-2xl font-bold text-center lg:text-left'>
-              <span className='text-light-blue'>Stake Avail</span> on Ethereum
-            </p>
-            <p
-              className={`${manrope.className} text-sm font-medium text-white/50 mt-1 text-center lg:text-left`}
-            >
-              Stake your AVAIL with us to earn rewards and points
-            </p>
-          </div>
-          <Image
-            src='Secure_Safebox_Digital.svg'
-            width={327}
-            height={245}
-            alt=''
-            className='self-start hidden lg:block absolute right-8 -top-10'
-          />
+						<p className='text-2xl font-bold text-center lg:text-left'>
+							<span className='text-light-blue'>Stake Avail</span> on Ethereum
+						</p>
+						<p
+							className={`${manrope.className} text-sm font-medium text-white/50 mt-1 text-center lg:text-left`}
+						>
+							Stake AVAIL or other ERC20 tokens on <br/> Ethereum chain to get stAVAIL
+						</p>
+					</div>
+					<Image
+						src='Secure_Safebox_Digital.svg'
+						width={327}
+						height={245}
+						alt=''
+						className='self-start hidden lg:block absolute right-8 -top-10'
+					/>
 				</div>
 				<div
 					data-aos='fade-up'
@@ -58,8 +58,7 @@ export default function Features() {
 					</p>
 					<p
 						className={`${manrope.className} text-sm font-medium text-white/50 mt-1 text-center lg:text-left`}>
-						Stake your AVAIL with us to earn rewards and
-						points
+						Don&apos;t have AVAIL? No worries, you can swap any ERC20 token and stake them
 					</p>
 				</div>
 			</div>
@@ -81,8 +80,7 @@ export default function Features() {
 					</p>
 					<p
 						className={`${manrope.className} text-sm font-medium text-white/50 mt-1 text-center lg:text-left`}>
-						Stake your AVAIL with us to earn rewards and
-						points
+						Track total staked AVAIL, APY at one place <br/> with our smart portfolio
 					</p>
 				</div>
 				<div
@@ -104,9 +102,8 @@ export default function Features() {
 						</p>
 						<p
 							className={`${manrope.className} text-sm font-medium text-white/50 mt-1 text-center lg:text-left`}>
-							Stake your AVAIL with us to earn rewards and
-							points
-						</p>
+							Get rewarded for staking AVAIL with us. <br/> More about this coming soon <span className='text-white'>👀</span>
+						</p> 
 					</div>
 					<Image
 						src='Alerts_Circle.svg'
