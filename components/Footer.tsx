@@ -23,10 +23,10 @@ export default function Footer() {
           </p>
           <div className={`pt-5 ${manrope.className} flex`}>
             <p className="mr-auto text-white/50">© 2024 deq.fi </p>
-            <Link href="#" className="lg:mr-6 mr-2 hover:text-white/50">
-              Terms of service
+            <Link target="blank" href="https://c4d33e84349779f94313fd5d07b13cc7bcaf42df084e425846ae1564517b9fa.s3.amazonaws.com/DeqTermsofUse.html" className="lg:mr-6 mr-2 hover:text-white/50">
+              Terms of Service
             </Link>
-            <Link href="#" className="hover:text-white/50">
+            <Link target="blank" href="https://c4d33e84349779f94313fd5d07b13cc7bcaf42df084e425846ae1564517b9fa.s3.amazonaws.com/DeqPrivacyPolicy.html" className="hover:text-white/50">
               Privacy Policy
             </Link>
           </div>
@@ -35,6 +35,7 @@ export default function Footer() {
           <div className="flex gap-4 h-full flex-grow">
             <Link
               className="bg-dark-gray rounded-2xl p-8 flex items-center justify-center flex-grow hover:bg-gray"
+              target="blank"
               href="https://t.me/deqfi "
             >
               <Image
@@ -68,6 +69,7 @@ export default function Footer() {
             <Link
               className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center flex-grow hover:bg-gray"
               href="https://warpcast.com/deq"
+              target="blank"
             >
               <Image
                 height={32}
