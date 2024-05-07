@@ -32,7 +32,7 @@ export default function Features() {
 						<p
 							className={`${manrope.className} text-sm font-medium text-white/50 mt-1 text-center lg:text-left`}
 						>
-							Stake AVAIL or other ERC20 tokens on <br/> Ethereum chain to get stAVAIL
+							Stake AVAIL or any ERC20 tokens on <br/> Ethereum chain to get stAVAIL
 						</p>
 					</div>
 					<Image
