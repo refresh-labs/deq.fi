@@ -15,7 +15,7 @@ export default function Footer() {
             className={`py-5 flex-wrap border-b border-solid border-white border-opacity-5 ${manrope.className} text-white/30 leading-[150%] tracking-wider`}
           >
             This website is maintained by{"  "}
-            <span className="text-white">Refresh Labs LLC.</span> All
+            <span className="text-white">Deq Labs Holdings Ltd.</span> All
             information contained herein is solely for providing information on
             the Deq ecosystem; it does not constitute an inducement or offer of
             any kind to invest in the Deq Protocol and is not directed at US
@@ -23,10 +23,10 @@ export default function Footer() {
           </p>
           <div className={`pt-5 ${manrope.className} flex`}>
             <p className="mr-auto text-white/50">© 2024 deq.fi </p>
-            <Link target="blank" href="https://c4d33e84349779f94313fd5d07b13cc7bcaf42df084e425846ae1564517b9fa.s3.amazonaws.com/DeqTermsofUse.html" className="lg:mr-6 mr-2 hover:text-white/50">
+            <Link target="blank" href="https://deq-labs-legal-1-bafea0fb.s3.amazonaws.com/DeqTermsofUse.html" className="lg:mr-6 mr-2 hover:text-white/50">
               Terms of Service
             </Link>
-            <Link target="blank" href="https://c4d33e84349779f94313fd5d07b13cc7bcaf42df084e425846ae1564517b9fa.s3.amazonaws.com/DeqPrivacyPolicy.html" className="hover:text-white/50">
+            <Link target="blank" href="https://deq-labs-legal-1-bafea0fb.s3.amazonaws.com/DeqPrivacyPolicy.html" className="hover:text-white/50">
               Privacy Policy
             </Link>
           </div>
@@ -36,7 +36,7 @@ export default function Footer() {
             <Link
               className="bg-dark-gray rounded-2xl p-8 flex items-center justify-center flex-grow hover:bg-gray"
               target="blank"
-              href="https://t.me/deqfi "
+              href="https://t.me/deqfi"
             >
               <Image
                 height={32}

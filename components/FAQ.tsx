@@ -21,7 +21,7 @@ const faqs = [
 	{
 		question: "How do I withdraw stAVAIL?",
 		answer:
-			"Currently it takes 28 days to redeem stAVAIL. Rewards are automatically redeemed when stAVAIL is withdrawn (in AVAIL). This is based on the unbonding period of the Avail blockchain. If you want a faster withdrawal period, you can always exit via liquidity pools on DEXes. Keep in mind that based on slippage and liquidity pool fees, you might not receive the exact amount that you would get when exiting via the protocol directly, keep in mind that we do not charge any withdrawal fees but the minimum amount to be eligible for protocol withdrawal is 1 stAVAIL.",
+			"Withdrawal is coming soon. We are in process of rolling out the entire protocol in phases. You can always exit your stAVAIL via LP.",
 	},
 	{
 		question: "How does Deq guarantee the best rates for swaps?",
