@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-      <meta property="og:title" content="deq.fi">
+      <meta property="og:title" content="deq.fi"></meta>
       <meta property="og:image:type" content="image/png"></meta>
       <meta property="og:image:width" content="2400"></meta>
       <meta property="og:image:height" content="1260"></meta>
