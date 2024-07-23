@@ -1,1 +1,0 @@
-Native liquid staking for Avail on Ethereum
