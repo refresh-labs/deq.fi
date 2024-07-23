@@ -8,15 +8,34 @@ import Head from "next/head";
 const quicksand = Quicksand({ subsets: ["latin"] });
 
 export default function Home() {
+  const encodedImageUrl =
+    "https://res.cloudinary.com/dczghbro7/image/upload/v1721746189/og-image_mzcne9.png".replace(
+      /\//g,
+      "%2F"
+    );
+
   return (
     <>
       <Head>
-        <title>Deq.fi</title>
-        <meta name="description" content="" />
+        <title>Deq Protocol</title>
         <meta
-          name="og:image"
-          content="https://res.cloudinary.com/dczghbro7/image/upload/v1721746189/og-image_mzcne9.png"
+          name="description"
+          content="Native liquid staking for Avail on Ethereum"
         />
+        <meta property="og:title" content="Deq Protocol" />
+        <meta
+          property="og:description"
+          content="Native liquid staking for Avail on Ethereum"
+        />
+        <meta property="og:image" content={encodedImageUrl} />
+        <meta property="og:url" content="https://deq.fi" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Deq Protocol" />
+        <meta
+          name="twitter:description"
+          content="Native liquid staking for Avail on Ethereum"
+        />
+        <meta name="twitter:image" content={encodedImageUrl} />
       </Head>
       <main
         className={`flex min-h-screen flex-col items-center justify-between ${quicksand.className} overflow-hidden`}
