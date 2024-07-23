@@ -23,7 +23,10 @@ export default function Footer() {
           </p>
           <div className={`pt-5 ${manrope.className} flex`}>
             <p className="mr-auto text-white/50">© 2024 deq.fi </p>
-            <Link target="blank" href="https://deq-labs-legal-1-bafea0fb.s3.amazonaws.com/DeqTermsofUse.html" className="lg:mr-6 mr-2 hover:text-white/50">
+            <Link target="blank" href="https://docs.deq.fi" className="lg:mr-4 mr-2 hover:text-white/50">
+              Docs
+            </Link>
+            <Link target="blank" href="https://deq-labs-legal-1-bafea0fb.s3.amazonaws.com/DeqTermsofUse.html" className="lg:mr-4 mr-2 hover:text-white/50">
               Terms of Service
             </Link>
             <Link target="blank" href="https://deq-labs-legal-1-bafea0fb.s3.amazonaws.com/DeqPrivacyPolicy.html" className="hover:text-white/50">
