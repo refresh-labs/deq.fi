@@ -24,7 +24,7 @@ const faqs = [
 			"Withdrawal is coming soon. We are in process of rolling out the entire protocol in phases. You can always exit your stAVAIL via LP.",
 	},
 	{
-		question: "How does Deq guarantee the best rates for swaps?",
+		question: "How does Deq offer the best rates for swaps?",
 		answer:
 			"Our swap feature is powered by the 0x API, which acts as a liquidity aggregator and routes your swap to the liquidity provider (such as Uniswap or Sushiswap) with the best rates. We do not charge any additional fees and the service is provided as-is, keep in mind that network fees still apply.",
 	},
