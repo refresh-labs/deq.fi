@@ -39,7 +39,7 @@ export default function Hero() {
 				Stake your AVAIL with us to earn rewards and points
 			</p>
 			<Link
-				href='https://app.deq.fi'
+				href='https://app.deq.fi?ref=deq.fi'
 				className={`sm:py-3 py-2 sm:px-10 px-6 text-sm font-bold mt-8 bg-dark-blue rounded-xl ${manrope.className} sm:font-extrabold sm:text-base hover:bg-light-blue`}>
 				Stake AVAIL
 			</Link>
