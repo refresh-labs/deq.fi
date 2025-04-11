@@ -9,7 +9,7 @@ const manrope = Manrope({ subsets: ["latin"] });
 
 const faqs = [
 	{
-		question: "What Is Deq?",
+		question: "What is Deq?",
 		answer:
 			"Deq is a native liquid staking platform for Avail tokens on Ethereum.",
 	},

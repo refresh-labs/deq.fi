@@ -22,8 +22,8 @@ export default function Footer() {
             persons.
           </p>
           <div className={`pt-5 ${manrope.className} flex`}>
-            <p className="mr-auto text-white/50">© 2024 deq.fi </p>
-            <Link target="blank" href="https://docs.deq.fi" className="lg:mr-4 mr-2 hover:text-white/50">
+            <p className="mr-auto text-white/50">© {new Date().getFullYear()} deq.fi </p>
+            <Link target="blank" href="https://docs.deq.fi?ref=deq.fi" className="lg:mr-4 mr-2 hover:text-white/50">
               Docs
             </Link>
             <Link target="blank" href="https://deq-labs-legal-1-bafea0fb.s3.amazonaws.com/DeqTermsofUse.html" className="lg:mr-4 mr-2 hover:text-white/50">
@@ -39,7 +39,7 @@ export default function Footer() {
             <Link
               className="bg-dark-gray rounded-2xl p-8 flex items-center justify-center flex-grow hover:bg-gray"
               target="blank"
-              href="https://t.me/deqfi"
+              href="https://t.me/deqfi?ref=deq.fi"
             >
               <Image
                 height={32}
@@ -51,7 +51,7 @@ export default function Footer() {
             <Link
               className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center flex-grow hover:bg-gray"
               target="blank"
-              href="https://twitter.com/deq_fi"
+              href="https://x.com/deq_fi?ref=deq.fi"
             >
               <Image height={32} src="x-icon.svg" width={33} alt="X logo" />
             </Link>
@@ -59,7 +59,7 @@ export default function Footer() {
           <div className="flex gap-4 h-full flex-grow">
             <Link
               className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center flex-grow hover:bg-gray"
-              href="https://discord.gg/Qsn7NQmdFB"
+              href="https://discord.gg/Qsn7NQmdFB?ref=deq.fi"
               target="blank"
             >
               <Image
@@ -71,7 +71,7 @@ export default function Footer() {
             </Link>
             <Link
               className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center flex-grow hover:bg-gray"
-              href="https://warpcast.com/deq"
+              href="https://warpcast.com/deq?ref=deq.fi"
               target="blank"
             >
               <Image
