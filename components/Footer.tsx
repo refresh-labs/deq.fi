@@ -34,10 +34,10 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col gap-4 lg:w-2/4 w-full h-auto flex-grow">
-          <div className="flex gap-4 h-full flex-grow">
+        <div className="flex flex-col gap-4 lg:w-2/4 w-full h-auto grow">
+          <div className="flex gap-4 h-full grow">
             <Link
-              className="bg-dark-gray rounded-2xl p-8 flex items-center justify-center flex-grow hover:bg-gray"
+              className="bg-dark-gray rounded-2xl p-8 flex items-center justify-center grow hover:bg-gray"
               target="blank"
               href="https://t.me/deqfi?ref=deq.fi"
             >
@@ -49,16 +49,16 @@ export default function Footer() {
               />
             </Link>
             <Link
-              className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center flex-grow hover:bg-gray"
+              className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center grow hover:bg-gray"
               target="blank"
               href="https://x.com/deq_fi?ref=deq.fi"
             >
               <Image height={32} src="x-icon.svg" width={33} alt="X logo" />
             </Link>
           </div>
-          <div className="flex gap-4 h-full flex-grow">
+          <div className="flex gap-4 h-full grow">
             <Link
-              className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center flex-grow hover:bg-gray"
+              className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center grow hover:bg-gray"
               href="https://discord.gg/Qsn7NQmdFB?ref=deq.fi"
               target="blank"
             >
@@ -70,7 +70,7 @@ export default function Footer() {
               />
             </Link>
             <Link
-              className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center flex-grow hover:bg-gray"
+              className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center grow hover:bg-gray"
               href="https://warpcast.com/deq?ref=deq.fi"
               target="blank"
             >
