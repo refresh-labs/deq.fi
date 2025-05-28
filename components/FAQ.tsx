@@ -21,17 +21,17 @@ const faqs = [
 	{
 		question: "How do I withdraw stAVAIL?",
 		answer:
-			"Withdrawal is coming soon. We are in process of rolling out the entire protocol in phases. You can always exit your stAVAIL via LP.",
+			"You can withdraw your stAVAIL via liquidity pools or natively via the protocol. Exchange rate will vary on the liquidity pools based on market conditions. The native withdrawal will always be at a pre-defined ratio with AVAIL, but it may take up to 28 days to process your withdrawal request due to the Avail network's unbonding period.",
 	},
 	{
 		question: "How does Deq offer the best rates for swaps?",
 		answer:
-			"Our swap feature is powered by the 0x API, which acts as a liquidity aggregator and routes your swap to the liquidity provider (such as Uniswap or Sushiswap) with the best rates. We do not charge any additional fees and the service is provided as-is, keep in mind that network fees still apply.",
+			"Our swap feature is powered by the 0x API, which acts as a liquidity aggregator and routes your swap to the liquidity provider (such as Uniswap or Sushiswap) with the best rates. We charge a 0.3% fee on swaps to ensure the sustainability of the protocol.",
 	},
 	{
 		question: "How do I earn Deq points?",
 		answer:
-			"Deq points are earned based on the time you have held stAVAIL in your wallet as well the amount held. There will also be more pathways to earn Deq points in the future.",
+			"Deq points are earned based on the time you have held stAVAIL in your wallet as well the amount held. This also applies to assets that are provided on the Sophon farm. There will also be more pathways to earn Deq points in the future.",
 	},
 	{
 		question: "What is the reward fee?",
