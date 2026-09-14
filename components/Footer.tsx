@@ -7,7 +7,7 @@ const manrope = Manrope({ subsets: ["latin"] });
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col justify-center items-center mt-32 sm:px-10 px-4">
+    <footer className="flex flex-col justify-center items-center mt-8 sm:px-10 px-4">
       <div className="flex lg:flex-row flex-col gap-4 justify-center">
         <div className="bg-dark-gray rounded-2xl sm:p-8 p-4 lg:w-2/4 w-full sm:text-sm text-xs font-medium">
           <Image src="logo.svg" height={35} width={110} alt="DEQ Logo" />
@@ -34,55 +34,18 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col gap-4 lg:w-2/4 w-full h-auto grow">
-          <div className="flex gap-4 h-full grow">
-            <Link
-              className="bg-dark-gray rounded-2xl p-8 flex items-center justify-center grow hover:bg-gray"
-              target="blank"
-              href="https://t.me/deqfi?ref=deq.fi"
-            >
-              <Image
-                height={32}
-                src="telegram-icon.svg"
-                width={33}
-                alt="Telegram Logo"
-              />
-            </Link>
-            <Link
-              className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center grow hover:bg-gray"
-              target="blank"
-              href="https://x.com/deq_fi?ref=deq.fi"
-            >
-              <Image height={32} src="x-icon.svg" width={33} alt="X logo" />
-            </Link>
-          </div>
-          <div className="flex gap-4 h-full grow">
-            <Link
-              className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center grow hover:bg-gray"
-              href="https://discord.gg/Qsn7NQmdFB?ref=deq.fi"
-              target="blank"
-            >
-              <Image
-                height={32}
-                src="discord-icon.svg"
-                width={33}
-                alt="Discord Logo"
-              />
-            </Link>
-            <Link
-              className="bg-dark-gray rounded-2xl p-8  flex items-center justify-center grow hover:bg-gray"
-              href="https://warpcast.com/deq?ref=deq.fi"
-              target="blank"
-            >
-              <Image
-                height={32}
-                src="warpcast-icon.svg"
-                width={33}
-                alt="Warpcast Logo"
-              />
-            </Link>
-          </div>
-        </div>
+        <Link
+          className="bg-dark-gray rounded-2xl p-8 flex items-center justify-center lg:w-1/4 w-full hover:bg-gray"
+          target="blank"
+          href="https://t.me/deqfi?ref=deq.fi"
+        >
+          <Image
+            height={32}
+            src="telegram-icon.svg"
+            width={33}
+            alt="Telegram Logo"
+          />
+        </Link>
       </div>
       <div className="h-fit flex items-center justify-center select-none mt-20">
         <Image src="footer.svg" alt="footer" width={833} height={226}  />
